@@ -185,9 +185,9 @@ std::vector<bool> AcquireImage()
     //bool trap5 = (bool)(lp_data[346+63] / countthreshold);
     //aBoolVector.push_back(trap5);
     //bool trap6 = (bool)(lp_data[346 + 2*63] / countthreshold);
-    //aBoolVector.push_back(trap5);
+    //aBoolVector.push_back(trap6);
     //bool trap7 = (bool)(lp_data[346 + 3*63] / countthreshold);
-    //aBoolVector.push_back(trap5);
+    //aBoolVector.push_back(trap7);
 
     /* ------ Save Image 1 ----------------------------------------------------------- */
     char buffer[sizeof(image_number) * 4 + 80];
